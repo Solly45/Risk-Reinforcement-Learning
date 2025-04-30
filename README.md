@@ -7,16 +7,16 @@ A modified version of the open-source PyRisk framework featuring a custom Deep R
 The goal of this project was to build and evaluate a Deep Reinforcement Learning agent (SkynetAI) capable of learning to play a stochastic board game with incomplete information: Risk. The implementation is based on the PyRisk framework, which provides a minimal yet functional Risk game engine in Python.
 
 The new agent uses:
-- A Double DQN with Prioritized Experience Replay
+- A Double DQN with Prioritised Experience Replay
 - Custom reward shaping for different game phases
 - Evaluation against heuristic agents (e.g., AlAI)
 
-The agent and training setup can be found in the `ai/skynet.py` and `train/` folders.
+The agent can be found in the `ai/skynet.py` folder.
 
 
 ## How to Run
 
-To simulate 5000 games between SkynetAI and AlAI:
+First, create an empty folder called `data` within the main directory, then to simulate 5000 games between SkynetAI and AlAI:
 
 ```bash
 python -m pyrisk SkynetAI AlAI --games=5000
@@ -38,7 +38,7 @@ This project is based on the [PyRisk](https://github.com/chronitis/pyrisk) frame
 
 ---
 
-A simple implementation of a variant of the **Risk** board game for python, designed for playing with AIs.
+A simple implementation of a variant of the **Risk** board game for Python, designed for playing with AIs.
 
 Runs in `python` (2.7 or 3.x) using the `curses` library to display the map (but can be run in pure-console mode).
 
