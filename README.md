@@ -25,7 +25,7 @@ python -m pyrisk SkynetAI AlAI --games=5000
 To watch a single game play out in terminal mode:
 
 ```bash
-python pyrisk.py SkynetAI AlAI
+python -m pyrisk.py SkynetAI AlAI
 ```
 
 ## Attribution
